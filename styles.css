@@ -1,0 +1,36 @@
+.container {
+    background-color: rgb(150, 230, 156);
+    width: 600px;
+    margin: 100px auto; /* Menempatkan formulir di tengah */
+    padding: 30px;
+    border: 2px solid #ccc; /* Garis bentuk kotak */
+    border-radius: 5px;
+    box-sizing: border-box; /* Memastikan ukuran termasuk padding dan border */
+}
+/* Gaya umum untuk label */
+label {
+    display: inline-block; /* Mengubah label menjadi inline-block agar dapat diatur lebar dan jarak */
+    width: 18%; /* Mengatur lebar label */
+    text-align: right; /* Mengatur posisi teks pada label ke kanan */
+    margin-right: 10px; /* Menambahkan jarak ke kanan antara label dan input */
+    
+    margin-bottom: 0px;
+    
+}
+/* Gaya untuk input teks */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+
+select {
+    width: calc(50% - 10px); /* Mengurangi padding dari lebar input */
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;}
+    input[type="radio"],
+    select {
+        width: calc(25% - 30px); /* Mengurangi padding dari lebar input */
+    }
+     
